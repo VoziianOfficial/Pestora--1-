@@ -80,3 +80,10 @@
 @keyframes count-pop{from{opacity:0;transform:translateY(18px) scale(.97)}to{opacity:1;transform:none}}
 @media(max-width:1050px){#at-a-glance .count-card{min-height:204px}#at-a-glance .count-panel ul{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){#at-a-glance .count-shell{padding:17px}#at-a-glance .count-strip{gap:13px}#at-a-glance .count-card{min-height:176px;padding:18px 14px;grid-template-columns:1fr 54px;gap:8px 10px}#at-a-glance .count-card .count-art{width:54px;height:58px}#at-a-glance .count-card strong{font-size:38px}#at-a-glance .count-card>span{font-size:15px;grid-column:1/-1;max-width:none}#at-a-glance .count-card>small{font-size:11px;grid-column:1/-1}#at-a-glance .count-card>.ui{grid-column:2;grid-row:4}#at-a-glance .count-dialog{padding:14px}#at-a-glance .count-dialog-card{max-height:calc(100vh - 28px);padding:22px 16px 18px;border-radius:10px}#at-a-glance .count-close{right:12px;top:12px;width:37px;height:37px}#at-a-glance .count-panel-head{align-items:flex-start;gap:12px;padding-right:38px}#at-a-glance .count-panel-art{width:52px;height:56px}#at-a-glance .count-panel h3{font-size:21px}#at-a-glance .count-panel ul{grid-template-columns:1fr;gap:8px}#at-a-glance .count-panel li{font-size:13px;padding:9px 10px}}
+.room-game.spray-mode{cursor:cell}
+.room-game.spray-mode:after{content:'';position:absolute;inset:0;border:2px solid #df7540;pointer-events:none;border-radius:8px;box-shadow:inset 0 0 0 999px #df754008}
+#treatment-guide .tool-card{min-height:112px;transition:background-color .45s var(--ease),border-color .45s var(--ease),box-shadow .45s var(--ease)}
+#treatment-guide .tool-card:hover,#treatment-guide .tool-card.active{transform:none}
+#treatment-guide .tool-card p,#treatment-guide .tool-card:hover p{max-width:330px}
+#treatment-guide .tool-card .hover-pest{bottom:4px;transform:translateY(14px) rotate(-25deg);transition:opacity .45s var(--ease),transform .45s var(--ease)}
+#treatment-guide .tool-card:hover .hover-pest,#treatment-guide .tool-card:focus-visible .hover-pest,#treatment-guide .tool-card.active .hover-pest{transform:translateY(0) rotate(-25deg);opacity:1}
