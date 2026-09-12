@@ -87,3 +87,6 @@
 #treatment-guide .tool-card p,#treatment-guide .tool-card:hover p{max-width:330px}
 #treatment-guide .tool-card .hover-pest{bottom:4px;transform:translateY(14px) rotate(-25deg);transition:opacity .45s var(--ease),transform .45s var(--ease)}
 #treatment-guide .tool-card:hover .hover-pest,#treatment-guide .tool-card:focus-visible .hover-pest,#treatment-guide .tool-card.active .hover-pest{transform:translateY(0) rotate(-25deg);opacity:1}
+.mobile-services a{position:relative!important;justify-content:center!important;text-align:center!important}
+.mobile-services a>span:nth-child(2){flex:0 1 auto!important}
+.mobile-services a>.ui{position:absolute!important;right:0!important;margin-left:0!important}
